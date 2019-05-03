@@ -41,8 +41,7 @@ public class Read {
                 default:
                     System.out.println("Out of ability");
             }
-        }
-        if (number < 20 | number == 10) {
+        }else if (number < 20 | number == 10) {
             switch (number) {
                 case 10:
                     System.out.print("ten");
@@ -77,8 +76,7 @@ public class Read {
                 default:
                     System.out.println("Out of ability");
             }
-        }
-        if (number < 30 | number == 20) {
+        }else if (number < 30 | number == 20) {
             String num = "twenty";
             switch (number) {
                 case 20:
